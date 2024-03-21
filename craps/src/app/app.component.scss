@@ -6,7 +6,7 @@
     height: 100vh
 }
 
-.img {
+.img-red {
     width: 200px;
     height: 200px;
     margin: 15px;
@@ -14,11 +14,20 @@
     border-radius: 10px;
 }
 
-.button {
+.img-green {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
     background-color: green;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: black;
     width: 100px;
     height: 50px;
     border-radius: 5px;
     color: white;
     margin-top: 20px;
+    font: 12;
 }

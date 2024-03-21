@@ -1,7 +1,7 @@
 <div class="container">
     <div>
-        <img class="img" src="../assets/img/dice2.png">
-        <img class="img" src="../assets/img/dice1.png">
+        <img class="img-red " [src]="leftCrap">
+        <img class="img-green" [src]="rightCrap">
     </div>
-    <button class="button">Play</button>
+    <button (click)="handlePLay()" class=" button ">Play</button>
 </div>
